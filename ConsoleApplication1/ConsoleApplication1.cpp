@@ -53,6 +53,20 @@ public:
 };
 
 
+class Group {
+	Student* students;
+	int AmountOfStudents
+		Group() {
+		AmountOfStudents = 1;
+		students = new Student[AmopuntOfStudents];
+	}
+
+	~Group() {
+		delete[] students;
+		students = nullptr;
+	}
+};
+
 void main() {
 	Student obj;
 	obj.PrintInfoAboutStudent();
