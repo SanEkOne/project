@@ -32,6 +32,20 @@ public:
 		  cout << "Enter a new age of student: " << endl;
 		  cin >> this->age;
 	  }
+
+	  string GetName() {
+		  return this->name;
+	  }
+	  int GetAge() {
+		  return this->age;
+	  }
+
+	  void SetName(const string name) {
+		  this->name = name;
+	  }
+	  void SetAge(const int age) {
+		  this->age = age;
+	  }
 };
 
 
