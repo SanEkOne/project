@@ -28,6 +28,7 @@ public:
 	  void PrintInfoAboutStudent() {
 		  cout << "Student name: " << this->name << endl;
 		  cout << "Student age: " << this->age << endl;
+		  cout << "Student mark: " << this->mark << endl;
 	  }
 
 	  void ChangeInfoAboutStudent() {
