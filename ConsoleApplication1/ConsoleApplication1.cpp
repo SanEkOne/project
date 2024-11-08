@@ -25,10 +25,19 @@ public:
 		  cout << "Student name: " << this->name << endl;
 		  cout << "Student age: " << this->age << endl;
 	  }
+
+	  void ChangeInfoAboutStudent() {
+		  cout << "Enter a new name of student: " << endl;
+		  cin >> this->name;
+		  cout << "Enter a new age of student: " << endl;
+		  cin >> this->age;
+	  }
 };
 
 
 void main() {
 	Student obj;
+	obj.PrintInfoAboutStudent();
+	obj.ChangeInfoAboutStudent();
 	obj.PrintInfoAboutStudent();
 }
